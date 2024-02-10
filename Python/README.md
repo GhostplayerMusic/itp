@@ -1,6 +1,6 @@
 # itp
 
-## Pulsar Reading
+## Python Reading
 
 ### Chapter 1:
 #### New Info:
