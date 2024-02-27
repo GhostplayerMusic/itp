@@ -4,4 +4,4 @@
 #(the result of a calculation):
 
 a = 5-2
-print(f"        {a}\n          blind\n               mice")
+print(f"\t{a}\n\t\tblind\n\t\t\tmice")
