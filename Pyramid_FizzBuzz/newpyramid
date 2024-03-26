@@ -1,0 +1,7 @@
+a = int(input('Enter a number between 1 and 8 '))
+if a<1 or a>8: 
+    print('Number out of range')
+else:
+    for i in range(a):
+        i+=1
+        print(' '*(a-i)+'#'*i)
