@@ -11,7 +11,9 @@ My project is updating the look of my payhip site to sell digital products inclu
 ## List at least 3 resources you know you will use in developing your project
 
 html/css webpage development
+
 Accessing video from an external source (api?)
+
 Payhip's store builder
 
 ## In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
