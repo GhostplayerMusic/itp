@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Chessboard
+    </title>
+    <script>
+      function printer()
+            {
+                console.clear
+                alert('Show JS console to view results')
+                let s = Number((document.querySelector('#size').value))
+                for(let i = 1; i < s+1; i++){
+                    if (i%2==0){
+                        console.log('# '.repeat(s));
+                    } else{
+                        console.log(' #'.repeat(s));
+                    } 
+                }   
+            }
+    </script>
+  </head>
+  <body>
+    <p>
+        Enter size:
+    </p>
+    <form onsubmit="printer(); return false;">
+            <input autocomplete="off" autofocus id="size" placeholder="Size" type="int">
+            <input type="submit">
+    </form>
+  </body>
+</html>
